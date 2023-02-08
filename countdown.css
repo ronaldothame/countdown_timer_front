@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://lh4.googleusercontent.com/proxy/LOUNUIJlgEaGnhruqzmnhK40uaFKvebv2uTp208y9bndE8KCvIKAPov8_1B_61XKQ85Yl_WINpg0_D4R4eVrU_WPQ7YxtuTvKFrvQBP7b_LVtXfBd2hZOfKAhRQHuf3yrtBpUBWm8FvdbdRnjuGk6GbHfVUbkpIDseZboOOW8NUlI36fRut5NgEFzTErpCMxDADwlB4cLO8tiDfDe0sjDmk2-cPUk9JDPFf9mXtGrCEKb-M-77rGwZGQ1g=s2560-w2560-h1440-p-k-no-nd-mv");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+	height: 90vh;        
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    }
+    
+h1 {
+    font-weight: normal;
+    font-size:50px;
+    text-align: center;
+}
+
+.countdown-container{    
+    max-width: 550px;
+    margin: 3rem auto 0;
+    background-color: rgba(151, 151, 151, 0.4);
+    padding: 1.5rem;
+    border-radius: 15px;   
+    
+}
+.events {
+    color:rgb(255, 255, 255);
+}
+p {
+    background-color: rgba(151, 151, 151, 0.7);
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+    width: 100%!important;
+}

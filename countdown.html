@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="./countdown.css"></link>    
 </head>
 <body>
-    <header>
-        <h1>Countdown Timer</h1>
-    </header>
-    <form class="form">        
-        <input name="eventName" type="text" placeholder="Type the event name...">        
-        <input name="eventTime" id="eventTime" type="datetime-local" placeholder="Event Date"> 
-        <button id ="create">New Event</button>         
-        <button id ="delete">Clear Events</button>
-    </form>
-    <ul id="eventList"></ul>
+    <div class="countdown-container">
+        <header>
+            <h1>Countdown Timer</h1>
+        </header>
+        <form class="form">        
+            <input name="eventName" type="text" placeholder="Type the event name...">        
+            <input name="eventTime" id="eventTime" type="datetime-local" min="current-date" placeholder="Event Date"> 
+            <button id ="create">New Event</button>         
+            <button id ="delete">Clear Events</button>
+        </form>
+        <p class="list" id="eventList"></p>        
+    </div>    
     <script src="/Users/ronaldo.thame/countdown_timer_front/countdown.js"></script>
 </body>
 </html>
