@@ -19,7 +19,7 @@ function handleEvents(eventList) {
             if (days > 0) {
                 events += `<td class="event">${element.eventName} - ${days} Days : ${hours} Hours : ${minutes} Minutes : ${seconds} Seconds.</td>`
             } else if (hours > 0) {
-                events += `<td class="event"></td><td>${element.eventName} - ${hours} Hours : ${minutes} Minutes : ${seconds} Seconds.</td>`
+                events += `<td class="event">${element.eventName} - ${hours} Hours : ${minutes} Minutes : ${seconds} Seconds.</td>`
             } else if (minutes > 0) {
                 events += `<td class="event"><${element.eventName} - ${minutes} Minutes : ${seconds} Seconds.</td>`
             } else if (seconds > 0) {
@@ -30,9 +30,10 @@ function handleEvents(eventList) {
             events += '</tr>'
             if (days === 0 && hours === 0 && minutes === 0 && seconds === 0) {
                 Swal.fire({
-                    icon: 'success',
-                    title: 'Yay!',
-                    text: `${element.eventName} has arrived`
+                    imageUrl: 'https://media.tenor.com/9CSjgBMp2fIAAAAC/emoji-party.gif',
+                    imageWidth: 150,
+                    imageHeight: 150,
+                    text: `${element.eventName} has arrived!`
                 })
             }
         })
@@ -145,6 +146,11 @@ document.getElementById('delete').addEventListener('click', async function (even
         clearInterval(interval)
         countdown()
     }
+})
+
+document.getElementById('info').addEventListener('click', async function (event) {
+    event.preventDefault()
+    window.open('https://github.com/ronaldothame/countdown_timer_front#readme', '_blank')
 })
 
 countdown()

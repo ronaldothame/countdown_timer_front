@@ -1,59 +1,65 @@
 @import url('https://fonts.cdnfonts.com/css/poppins');
 
 body {
-    background-image: url("https://lh6.googleusercontent.com/proxy/GLFy6ULUWAS3iXHcYRzyfq2_kF3MuGHSYys7NVNaMgJjfJKhXdY4ashsXfOrkWAvQkHRgBtLsfSmiwPPkbEH9bnQwAnNbtY8Yt-x8gkcsPhXo4dOuaR7M5I7Rtcx1HDt1YKUUfVSpDZ-4NbucYIMjFgHbnd-kFWwe7jqJLxm6CHP_RH8Gh_RlU29bqBRKNh64zgFcUi0N8JV8z4JUSeEIlkuNyEuoPlQM1SNIkH9hD804kVn-t4YqgWQjT2oVw00CWNweVb4Zv8I0w=s2560-w2560-h1440-p-k-no-nd-mv");
-    background-size: cover;
-    overflow: hidden;
-    color: white;    
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  background-image: url("https://lh6.googleusercontent.com/proxy/GLFy6ULUWAS3iXHcYRzyfq2_kF3MuGHSYys7NVNaMgJjfJKhXdY4ashsXfOrkWAvQkHRgBtLsfSmiwPPkbEH9bnQwAnNbtY8Yt-x8gkcsPhXo4dOuaR7M5I7Rtcx1HDt1YKUUfVSpDZ-4NbucYIMjFgHbnd-kFWwe7jqJLxm6CHP_RH8Gh_RlU29bqBRKNh64zgFcUi0N8JV8z4JUSeEIlkuNyEuoPlQM1SNIkH9hD804kVn-t4YqgWQjT2oVw00CWNweVb4Zv8I0w=s2560-w2560-h1440-p-k-no-nd-mv");
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  max-height: 800px;
 }
 
-h1 {
-    font-weight: normal;
-    font-size: 50px;
-    text-align: center;
+header {
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  margin-bottom: 15px;
 }
 
 .countdown-container {
-    color:white;
-    max-width: 650px;
-    margin: 3rem auto 0;
-    background-color: rgba(151, 151, 151, 0.25);
-    padding: 1.5rem;
-    border-radius: 15px;
-    
+  color: white;
+  max-width: 670px;
+  margin: 3rem auto 0;
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 1.5rem;
+  border-radius: 15px;
 }
 
-.droida {
-    background: rgba(255, 255, 255, 0.865);    
-    border: none;
-    padding: 10px;
-    border-radius: 8px;    
-    margin: 5px;    
-    cursor: pointer;
-    outline: none;
-  }
+.buttons {
+  background: rgba(255, 255, 255, 0.865);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
 
-  input {
-    background: rgba(255, 255, 255, 0.865);   
-    border: none;
-    padding: 10px;
-    border-radius: 8px;    
-    margin: 5px;    
-    cursor: text;
-    outline: none;    
-  }
+input {
+  background: rgba(255, 255, 255, 0.865);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: text;
+  outline: none;
+}
 
-  .list {
-    overflow-y: auto;
-    height: 500px;
-    list-style: none;
-    
-  }
-  .myTable {
-    text-align: center;
-    color:white;
-  }
-  
- 
+.myTable {
+  text-align: center;
+  margin: auto;
+  color: white;
+  display: table;
+}
+
+.myDiv {
+  overflow-y: auto;
+  max-height: 600px;
+  width: 100%;
+}
