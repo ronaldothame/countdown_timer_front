@@ -1,5 +1,6 @@
-# Countdown Timer
+# Countdown Timer 🕰️
 Landing page that create and counts down events.
+API https://github.com/ronaldothame/countdown_timer_api
 
 ## Project Features 🚀
 - `Feature 1` `Create new event`: To create a new event type a name, select a date and click the PLUS icon.
