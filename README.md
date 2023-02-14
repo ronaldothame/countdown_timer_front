@@ -1,5 +1,5 @@
 # Countdown Timer 🕰️
-Landing page that create and counts down events.
+App that create and counts down events.
 API https://github.com/ronaldothame/countdown_timer_api
 
 ## Project Features 🚀
